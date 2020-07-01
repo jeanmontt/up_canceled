@@ -1,0 +1,120 @@
+main {
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+main h1 {
+
+    font-size: 30px;
+    line-height: 40px;
+
+    margin: 30px auto;
+
+    text-align: right;
+}
+
+main h2 {
+    font-size: 30px;
+    line-height: 35px;
+
+    margin-bottom: 20px;
+}
+
+main h2 strong.normal {
+    font-weight: normal;
+    color: white;
+}
+
+main h2 strong {
+    color: var(--color-up);
+}
+
+main p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#business-consulting {
+    width: 520px;
+}
+
+#outside-to-inside  {
+    max-width: 1100px;
+
+    margin: -200px auto 0;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+}
+
+#outside-to-inside h2 {
+    width: 425px;
+
+    text-align: center;
+
+    margin-left: 0;
+}
+
+#outside-to-inside p {
+    max-width: 425px;
+
+    text-align: center;
+}
+
+#learning-journey {
+    width: 520px;
+
+    margin-top: -50px;
+}
+
+#learning-journey p{
+    text-align: right;
+
+    margin-top: -90px;
+}
+
+#branding {
+    max-width: 1100px;
+
+    margin: -70px auto 0;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+}
+
+#branding h2 {
+    text-align: right;
+}
+
+#branding h2 big {
+    margin-right: 15px;
+}
+
+#branding h2 strong.normal {
+    margin-right: 45px;
+}
+
+#branding p {
+    width: 610px;
+
+    text-align: center;
+}
+
+#trainings {
+    margin-top: -90px;
+    margin-bottom: 30px;
+}
+
+#trainings h2 {
+    width: 340px;
+    text-align: center;
+}
+
+#trainings p {
+    width: 650px;
+}
