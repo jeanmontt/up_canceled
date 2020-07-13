@@ -6,8 +6,9 @@
 
     <link rel="stylesheet" href="/public/styles/main.css">
     <link rel="stylesheet" href="/public/styles/vem-dar-um-up.css">
+    <link rel="stylesheet" href="/public/styles/modal.css">
 
-    <link rel="shortcut icon" type="image/x-icon" href="public/assets/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/public/assets/favicon.ico">
     <title>Up. - Vem dar um up!</title>
 </head>
 
@@ -68,12 +69,17 @@
 
     <main>
         <div class="content">
+            <h1>VEM DAR UM UP!</h1>
+
+            <div class="image">
+                <img src="/public/assets/contact.jpg" alt="">
+            </div>
+            
+        <section>
+            <h2>Vamos tomar um café?</h2>
+
             <form action="">
-                <h1>Vem dar um up!</h1>
-
                 <fieldset>
-                    <legend>Vamos tomar um café?</legend>
-
                     <div class="field-group">
                         <div class="field">
                             <label for="name">Nome*</label>
@@ -82,7 +88,7 @@
 
                         <div class="field">
                             <label for="name">Telefone*</label>
-                            <input type="text" name="name" required="required">
+                            <input type="number" name="name" placeholder="(xx)xxxx-xxxx" required="required">
                         </div>
                     </div>
 
@@ -97,8 +103,26 @@
                             <input type="text" name="name">
                         </div>
                     </div>
+
+                    <div class="field-group how">
+                        <div class="field how">
+                            <label for="name">Como podemos te dar um up?</label>
+                            <textarea name="name" id="up" cols="30" rows="8"></textarea>
+
+                            <button>Enviar</button>
+                        </div>
+                    </div>
                 </fieldset>
             </form>
+        </section>
+        </div>
+
+        <div class="modal-overlay">
+            <div class="modal">
+                <img src="/public/assets/check.svg" alt="Imagem check">
+
+                <h1>Mensagem enviada</h1>
+            </div>
         </div>
     </main>
 

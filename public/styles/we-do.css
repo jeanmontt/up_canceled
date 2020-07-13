@@ -73,7 +73,7 @@ main p {
 #learning-journey p{
     text-align: right;
 
-    margin-top: -90px;
+    margin-top: -70px;
 }
 
 #branding {
@@ -117,4 +117,48 @@ main p {
 
 #trainings p {
     width: 650px;
+}
+
+#whatsapp {
+    max-width: 1100px;
+
+    text-align: center;
+
+    /* margin: -180px 150px 100px 0; */
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#whatsapp a {
+    text-decoration: none;
+    
+    color: white;
+
+    text-align: center;
+}
+
+#whatsapp a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+    color: var(--color-up);
+
+    transition: 300ms;
+}
+
+#whatsapp p {
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+#whatsapp img {
+    height: 40px;
 }

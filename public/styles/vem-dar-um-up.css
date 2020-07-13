@@ -1,0 +1,111 @@
+.content {
+    width: 940px;
+
+    margin: 0 auto;
+}
+
+.content h1 {
+    text-align: right;
+
+    margin-bottom: 50px;
+}
+
+.content h2 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: normal;
+    font-size: 28px;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: var(--color-up);
+}
+
+.content .image {
+    width: 940px;
+
+    text-align: right;
+}
+
+.content img {
+    height: 200px;
+
+    border-radius: 100px 20px 100px 20px;
+}
+
+section {
+    max-width: 530px;
+    margin-top: -230px;
+}
+
+.field-group {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+}
+
+.field input {
+    border-radius: 8px;
+
+    margin-top: 5px;
+
+    padding: 8px;
+
+    background-color: rgb(212, 212, 212);
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 15px;
+}
+
+.field-group.how {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.field.how label {
+    margin-bottom: 5px;
+}
+
+.field.how textarea {
+    margin-bottom: 15px;
+
+    padding: 8px;
+
+    border-radius: 8px;
+
+    background-color: rgb(212, 212, 212);
+
+    font-size: 15px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.field.how button {
+    width: 100px;
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.field.how button:hover {
+    opacity: 1;
+
+    transition: 300ms;
+}
