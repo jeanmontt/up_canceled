@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/styles/main.css">
+        {% block head %}{% endblock head %}
+
+        <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                <div class="img">
+                    <a href="/">
+                        <img src="/assets/logo.png" alt="Logo Up">
+                    </a>
+                </div>
+
+                <div class="menu">
+                    <a class="begin" href="/">
+                        Início
+                    </a>
+
+                    <a class="we-do" href="/o-que-fazemos">
+                        O que fazemos
+                    </a>
+
+                    <a class="share" href="/up-compartilha">
+                        Up Compartilha
+                    </a>
+
+                    <a class="up-se" href="/up-se">
+                        Up-se
+                    </a>
+
+                    <a class="contact" href="/vem-dar-um-up">
+                        Vem dar um up
+                    </a>
+                </div>
+
+                <div class="midias">
+                    <a class="face grow" href="https://www.facebook.com/upcompartilha" target="_blank">
+                        <img src="/assets/face.webp" alt="Facebook">
+                    </a>
+
+                    <a class="bar" href="#"></a>
+
+                    <a class="insta grow" href="https://www.instagram.com/upcompartilha/" target="_blank">
+                        <img src="/assets/insta.webp" alt="Instagram">
+                    </a>
+
+                    <a class="bar" href="#"></a>
+
+                    <a class="linked" href="https://www.linkedin.com/company/upcompartilha/" target="_blank">
+                        <img class="grow" src="/assets/linked.webp" alt="Linkedin">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            {% block content %}{% endblock content %}
+        </main>
+
+        <footer>
+            <div class="social-medias">
+                <a class="face" href="https://www.facebook.com/upcompartilha" target="_blank">
+                    <img src="/assets/facebook-color.png" alt="Facebook">
+                </a>
+
+                <a class="insta" href="https://www.instagram.com/upcompartilha/" target="_blank">
+                    <img src="/assets/instagram-color.png" alt="Instagram">
+                </a>
+
+                <a class="linked" href="https://www.linkedin.com/company/upcompartilha/" target="_blank">
+                    <img src="/assets/linkedin-color.png" alt="Linkedin">
+                </a>
+            </div>
+
+            <div class="city">
+                <p>Juiz de Fora - MG</p>
+            </div>
+
+            <div class="email">
+                <a href="mailto:oi@queroumup.com">
+                    oi@queroumup.com
+                </a>
+            </div>
+
+            <div class="tel">
+                <a class="tel1" href="tel:(32)98703-1737">
+                    (32)98703-1737
+                </a>
+
+                <a class="tel2" href="tel:(32)99977-2244">
+                    (32)99977-2244
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

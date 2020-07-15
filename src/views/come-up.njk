@@ -1,0 +1,67 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/styles/come-up.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+
+    <title>Up. - Vem dar um up!</title>
+{% endblock head %}
+
+{% block content %}
+    <div class="content">
+        <h1>VEM DAR UM UP!</h1>
+
+        <div class="image">
+            <img src="/assets/contact.jpg" alt="Imagem Hello">
+        </div>
+
+        <section>
+            <h2>Vamos tomar um café?</h2>
+
+            <form action="">
+                <fieldset>
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="name">Nome*</label>
+                            <input type="text" name="name" required="required">
+                        </div>
+
+                        <div class="field">
+                            <label for="name">Telefone*</label>
+                            <input type="tel" name="name" placeholder="(xx)xxxx-xxxx" required="required">
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="name">Email</label>
+                            <input type="email" name="name">
+                        </div>
+
+                        <div class="field">
+                            <label for="name">Empresa</label>
+                            <input type="text" name="name">
+                        </div>
+                    </div>
+
+                    <div class="field-group how">
+                        <div class="field how">
+                            <label for="name">Como podemos te dar um up?</label>
+                            <textarea name="name" id="up" cols="30" rows="8"></textarea>
+
+                            <button>Enviar</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <img src="/assets/check.svg" alt="Imagem check">
+
+            <h1>Mensagem enviada</h1>
+        </div>
+    </div>
+{% endblock content %}
