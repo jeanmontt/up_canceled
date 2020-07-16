@@ -1,3 +1,9 @@
+.title {
+    max-width: 1100px;
+
+    margin: 20px auto 0;
+}
+
 .cards {
     max-width: 1100px;
 
@@ -5,16 +11,20 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px 20px;
+    gap: 30px 30px;
 }
 
 .card {
+    padding: 10px;
+
     cursor: pointer;
+
+    max-width: 350px;
 }
 
 .card img {
-    height: 140px;
-    max-width: 100%;
+    height: 200px;
+    width: 100%;
 
     border-radius: 15px;
 
@@ -33,4 +43,15 @@
 .card p {
     font-size: 18px;
     line-height: 21px;
+
+    opacity: 0.7;
+}
+
+.card:hover {
+    color: var(--color-up);
+
+    border: 1px solid var(--color-up);
+    border-radius: 15px;
+
+    transition: 300ms;
 }
